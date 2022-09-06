@@ -23,7 +23,41 @@
     font-weight: 550;
     font-size: 3.5em;
     box-shadow: 5px 5px 20px black;
-    transform: translate(0,-10rem);
+    transform: translate(0,-8rem);
+}
+#about .content {
+    display: flex;
+}
+#about .content-image {
+    margin-right: 4rem;
+}
+#about .content .content-image, #about .content .content-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 20px;
+    outline: 1px solid rgba(254,99,2,.50);
+    font-weight: 400;
+    font-size: 2em;
+    box-shadow: 5px 5px 20px black;
+    width: 30rem;
+    height: 35rem;
+    margin-top: 2.5rem;
+}
+#about p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+#about .content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about img {
+    width: 25rem;
+    height: 30rem;
+    border-radius: 20px;
+    outline: 1px solid rgba(254,99,2,.50);
 }
 
 /* Element Selectors */
