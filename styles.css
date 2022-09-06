@@ -62,6 +62,20 @@ section {
     width: 100%;
     height: 100%;
     padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Class Selectors */
+.title {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 20px;
+    outline: 1px solid rgba(254,99,2,.50);
+    font-weight: 400;
+    font-size: 3em;
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    width: 35rem;
+}
