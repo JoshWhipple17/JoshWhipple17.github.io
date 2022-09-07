@@ -27,9 +27,13 @@
 }
 #about .content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
-#about .content-image {
-    margin-right: 4rem;
+#about .content-image, #about .content-text {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 #about .content .content-image, #about .content .content-text {
     background-color: rgba(0, 0, 0, 0.5);
