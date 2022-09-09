@@ -89,7 +89,7 @@
     width: 20rem;
     height: 15rem;
     border-radius: 20px;
-    outline: 1px solid rgba(254,99,2,.50);
+    outline: 2px solid rgba(254,99,2,.50);
 }
 #projects hr {
     width: 20rem;
@@ -103,6 +103,62 @@
     margin-top: .50rem;
     width: 20rem;
     overflow-y: scroll;
+}
+#contact .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact #contact-row1, #contact #contact-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#contact #contact-row1 div, #contact #contact-row2 div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 20px;
+    outline: 1px solid rgba(254,99,2,.50);
+    box-shadow: 5px 5px 20px black;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+#contact #contact-row1 div, #contact #contact-row2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .contact-icon {
+    background-image: url('./images/socialMediaIcons.jpg');
+    background-repeat: no-repeat;
+    width: 9rem;
+    height: 9rem;
+    display: block;
+    border-radius: 20px;
+    outline: 2px solid rgba(254,99,2,.50);
+}
+#contact #instagram {
+    background-position: -135px -210px;
+}
+#contact #facebook {
+    background-position: -425px -210px;
+}
+#contact #youtube {
+    background-position: -715px -210px;
+}
+#contact #linkedin {
+    background-position: -1000px -210px;
+}
+#contact #twitter {
+    background-position: -135px -470px;
+}
+#contact #tiktok {
+    background-position: -425px -470px;
 }
 
 /* Element Selectors */
